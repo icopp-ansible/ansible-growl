@@ -12,6 +12,4 @@ galaxy_info:
     - application
 
 dependencies:
-  - name: icopp.mas-cli
-    src: https://github.com/icopp/ansible-mas-cli.git
-    scm: git
+  - role: icopp.mas-cli
