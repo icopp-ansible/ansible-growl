@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: Ian Copp
+  description: Install Growl via the Mac App Store. Does nothing on non-macOS platforms.
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: MacOSX
+      versions:
+        - all
+  galaxy_tags:
+    - application
+
+dependencies:
+  - name: icopp.mas-cli
+    src: https://github.com/icopp/ansible-mas-cli.git
+    scm: git

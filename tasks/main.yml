@@ -1,0 +1,8 @@
+---
+- name: Install Growl via Mac App Store
+  command: mas install "{{ item.id }}"
+  args:
+    creates: /Applications/{{ item.name }}.app
+  with_items:
+    - { id: 467939042, name: "Growl" }
+  when: ansible_os_family == "Darwin"
