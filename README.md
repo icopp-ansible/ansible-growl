@@ -1,10 +1,10 @@
 # ansible-growl
 
-Install Growl via the Mac App Store. Does nothing on non-macOS platforms.
+Install Growl via the Mac App Store. (Note that no non-MAS option is provided because other available downloads are a major version behind.)
 
 ## Dependencies
 
-* [icopp.mas-cli](https://github.com/icopp/ansible-mas-cli) (included as repository dependency)
+* [icopp.mas-cli](https://github.com/icopp/ansible-mas-cli)
 
 ## Example Playbook
 
